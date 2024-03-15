@@ -1,0 +1,56 @@
+[
+  {
+    "recipe_id": 1,
+    "recipe_name": "Grilled Chicken with Herb Butter",
+    "short_description": "Juicy grilled chicken served with aromatic herb butter.",
+    "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaves", "400 g mushroom"],
+    "preparing_time": 30,
+    "calories": "320 calories",
+    "recipe_image": "https://i.ibb.co/Vmtm8f8/pexels-ella-olsson-1640777-1.jpg"
+  },
+  {
+    "recipe_id": 2,
+    "recipe_name": "Mixed Berry Smoothie Bowl",
+    "short_description": "Refreshing smoothie bowl packed with mixed berries.",
+    "ingredients": ["150 g strawberries", "100 g blueberries", "100 g raspberries", "1 banana", "120 ml almond milk"],
+    "preparing_time": 10,
+    "calories": "200 calories",
+    "recipe_image": "https://i.ibb.co/BNcVc00/pexels-jane-doan-1099680-1.jpg"
+  },
+  {
+    "recipe_id": 3,
+    "recipe_name": "Mango Avocado Salad with Cilantro Lime Dressing",
+    "short_description": "Fresh salad with mango, avocado, and a zesty cilantro lime dressing.",
+    "ingredients": ["2 ripe mangoes", "2 avocados", "100 g mixed greens", "1/4 cup chopped cilantro", "2 tbsp lime juice"],
+    "preparing_time": 15,
+    "calories": "180 calories",
+    "recipe_image": "https://i.ibb.co/k4NVMnq/pexels-ella-olsson-1640774.jpg"
+  },
+  {
+    "recipe_id": 4,
+    "recipe_name": "Grilled Salmon with Lemon Dill Sauce",
+    "short_description": "Tender grilled salmon fillets topped with tangy lemon dill sauce.",
+    "ingredients": ["4 salmon fillets", "2 lemons", "2 tbsp chopped fresh dill", "1/4 cup Greek yogurt", "1 clove garlic", "Salt and pepper to taste"],
+    "preparing_time": 20,
+    "calories": "280 calories",
+    "recipe_image": "https://i.ibb.co/jvW6fVr/pexels-toa-heftiba-inca-940302.jpg"
+  },
+  {
+    "recipe_id": 5,
+    "recipe_name": "Rainbow Veggie Stir-Fry",
+    "short_description": "Colorful stir-fry loaded with fresh vegetables.",
+    "ingredients": ["1 red bell pepper", "1 yellow bell pepper", "1 green bell pepper", "1 carrot", "1 broccoli head", "150 g snow peas", "120 ml soy sauce"],
+    "preparing_time": 25,
+    "calories": "220 calories",
+    "recipe_image": "https://i.ibb.co/6Nv89HH/pexels-elle-hughes-1660030.jpg"
+  },
+  {
+    "recipe_id": 6,
+    "recipe_name": "Berry Burst Smoothie",
+    "short_description": "Vibrant smoothie bursting with the flavors of mixed berries.",
+    "ingredients": ["200 g mixed berries", "1 banana", "120 ml orange juice", "50 g spinach leaves", "1 tbsp honey"],
+    "preparing_time": 10,
+    "calories": "180 calories",
+    "recipe_image": "https://i.ibb.co/28VsGSd/pexels-malidate-van-769289.jpg"
+  }
+]

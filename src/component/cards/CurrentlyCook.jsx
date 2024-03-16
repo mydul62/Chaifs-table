@@ -22,7 +22,7 @@ const CurrentlyCook = ({cardProcessData}) => {
             <tr className="bg-[#2828280d]" key={index}>
             <th>{index+1}</th>
             <td>{item.recipe_name}</td>
-            <td>{item.preparing_time}</td>
+            <td>{item.preparing_time} Min</td>
             <td>{item.calories}</td>
           </tr>
           ))

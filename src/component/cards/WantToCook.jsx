@@ -22,7 +22,7 @@ const WantToCook = ({cardData,prepareCard}) => {
                     <tr key={index} className="bg-[#2828280d]">
                     <th>{index+1}</th>
                     <td>{item.recipe_name}</td>
-                    <td>{item.preparing_time}</td>
+                    <td>{item.preparing_time} Min</td>
                     <td>{item.calories}</td>
                     <td>
                       <button onClick={()=>prepareCard(item)} className=" bg-[#0BE58A] py-2 px-4 rounded-full">Preparing</button>

@@ -19,7 +19,7 @@
   },
   {
     "recipe_id": 3,
-    "recipe_name": "Mango Avocado Salad with Cilantro Lime",
+    "recipe_name": "Mango Avocado Salad ",
     "short_description": "Fresh salad with mango, avocado, and a zesty cilantro lime dressing.",
     "ingredients": ["2 ripe mangoes", "2 avocados", "100 g mixed greens", "1/4 cup chopped cilantro", "2 tbsp lime juice"],
     "preparing_time": 15,
@@ -47,7 +47,7 @@
   {
     "recipe_id": 6,
     "recipe_name": "Berry Burst Smoothie",
-    "short_description": "Vibrant smoothie bursting with the flavors of mixed berries.",
+    "short_description": "Vibrant smoothie bursting with the flavors of mixed.",
     "ingredients": ["200 g mixed berries", "1 banana", "120 ml orange juice", "50 g spinach leaves", "1 tbsp honey"],
     "preparing_time": 10,
     "calories": "180 calories",

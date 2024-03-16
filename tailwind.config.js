@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         Lexend: ["Lexend", "sans-serif"],
+        Fira: ["Fira Sans", "sans-serif"],
       },
     },
   },

@@ -23,7 +23,7 @@ const MainHeader = () => {
             </div>
             <ul
               tabIndex="0"
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 rounded-box w-52"
+              className="menu menu-sm bg-[#ccc] dropdown-content mt-3 z-[1] p-2 rounded-box w-52"
             >
               <li>
                 <a>Home</a>
@@ -39,7 +39,7 @@ const MainHeader = () => {
               </li>
             </ul>
           </div>
-          <a className=" text-xl lg:text-[40px] font-bold ">Racipe calories</a>
+          <a className=" text-xl lg:text-[40px] font-bold ">Racipe<span className=" text-[#0BE58A]">Calories</span></a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-[16px]">

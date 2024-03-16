@@ -2,7 +2,7 @@
 const CurrentlyCook = ({cardProcessData}) => {
   return (
     <div className="">
-      <div className=" w-[60%] mx-auto">
+      <div className="w-[90%] lg:w-[60%] mx-auto">
     <h2 className=" py-4 text-[#282828] text-2xl font-semibold">Currently cooking: 0{cardProcessData.length}</h2>
     <hr/>
     </div>

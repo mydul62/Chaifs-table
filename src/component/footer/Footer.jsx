@@ -10,9 +10,7 @@ const Footer = () => {
           Racipe<span className="text-[#797DFC]">Calories</span>
           </h1>
           <p className="text-[#12132D99] inter text-[18px]">
-            Transport yourself to a bygone era with our carefully curated
-            selection of vintage delights. Explore the timeless elegance and
-            retro charm of our collection
+          Welcome to our recipe calories, where culinary inspiration meets mouthwatering delight! Discover a world of flavors, techniques, and culinary creativity right at your fingertips.
           </p>
           <div>
             <hr />

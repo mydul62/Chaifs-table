@@ -1,7 +1,7 @@
 
 const RecipeItem = ({item,cardAdd}) => {
   return (
-      <div className="p-6 border border-[#28282833] col-span-3 bg-base-100 shadow-xl ">
+      <div className="p-6 border border-[#28282833] rounded-2xl col-span-3  ">
               <figure className=" ">
                 <img className="rounded-lg" src={item.recipe_image} alt="Shoes" />
               </figure>

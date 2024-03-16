@@ -40,6 +40,7 @@ if(!isExist){
     <RecipeTitle ToastContainer ={ToastContainer}></RecipeTitle>
     <RecipeItems  cardProcessData={cardProcessData} prepareCard={handlePrepareCard}  cardData={cardData} cardAdd={handleCardAdd} recipeData={data}></RecipeItems>
     <Footer></Footer>
+    <ToastContainer></ToastContainer>
     </>
   )
 }

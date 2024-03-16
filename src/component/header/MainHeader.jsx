@@ -42,7 +42,7 @@ const MainHeader = () => {
           <a className=" text-xl lg:text-[40px] font-bold ">Racipe<span className=" text-[#0BE58A]">Calories</span></a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 text-[16px]">
+          <ul className="menu font-Lexend menu-horizontal px-1 text-[16px]">
             <li>
               <a>Home</a>
             </li>
@@ -58,7 +58,7 @@ const MainHeader = () => {
           </ul>
         </div>
         <div className="navbar-end gap-4">
-          <div className=" hidden">
+          <div className=" lg:block hidden">
             <label className="input input-bordered flex items-center">
               <input type="text" className="grow" placeholder="Search" />
               <svg

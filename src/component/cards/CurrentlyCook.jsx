@@ -19,7 +19,7 @@ const CurrentlyCook = ({cardProcessData}) => {
       <tbody>
         {
           cardProcessData.map((item,index)=>(
-            <tr className=" textce" key={index}>
+            <tr className="bg-[#2828280d]" key={index}>
             <th>{index+1}</th>
             <td>{item.recipe_name}</td>
             <td>{item.preparing_time}</td>

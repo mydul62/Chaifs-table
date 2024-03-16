@@ -3,6 +3,8 @@ import HeroSection from "./component/HeroSection/HeroSection"
 import RecipeTitle from "./component/recipe/RecipeTitle";
 import RecipeItems from "./component/recipe/RecipeItems";
 import { useEffect, useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 function App() {
   const [data,setData]=useState([]);
   const [cardData,setCardData]=useState([]);
@@ -14,9 +16,14 @@ function App() {
   },[])
 
   const handleCardAdd=(info)=>{
-    let newData = [...cardData,info]
-    setCardData(newData)
-    console.log(cardData);
+    let isExist = cardData.find(pd=>pd.recipe_id==info.recipe_id);
+if(!isExist){
+  let newData = [...cardData,info]
+  setCardData(newData)
+} else{
+  toast('this product allready exist')
+}
+ 
   }
   const handlePrepareCard=(info)=>{
       const newItem = cardData.filter((pd)=>pd.recipe_id !==info.recipe_id)
@@ -27,10 +34,9 @@ function App() {
 
   return (
     <>
-    <h1 className="logo:hover ">mahim</h1>
     <MainHeader></MainHeader>
     <HeroSection></HeroSection>
-    <RecipeTitle></RecipeTitle>
+    <RecipeTitle ToastContainer ={ToastContainer}></RecipeTitle>
     <RecipeItems  cardProcessData={cardProcessData} prepareCard={handlePrepareCard}  cardData={cardData} cardAdd={handleCardAdd} recipeData={data}></RecipeItems>
     </>
   )

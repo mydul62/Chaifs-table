@@ -19,7 +19,7 @@ const WantToCook = ({cardData,prepareCard}) => {
               <tbody>
                 {
                   cardData.map((item,index)=>(
-                    <tr key={index}>
+                    <tr key={index} className="bg-[#2828280d]">
                     <th>{index+1}</th>
                     <td>{item.recipe_name}</td>
                     <td>{item.preparing_time}</td>

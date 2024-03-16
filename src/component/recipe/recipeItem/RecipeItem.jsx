@@ -15,7 +15,7 @@ const RecipeItem = ({item,cardAdd}) => {
                   <h2 className=" font-medium text-[18px] text-[#282828]">Ingredients:{item.ingredients.length}</h2>
                   <ul className=" list-disc">
                     {item.ingredients.slice(0,3).map((ing,index) => (
-                      <li className=" text-[18px] text-[#878787]" key={index}>{ing}</li>
+                      <div className="ml-8" key={index}><li className=" text-[18px] text-[#878787]" >{ing}</li></div>
                     ))}
                   </ul>
                 </div>

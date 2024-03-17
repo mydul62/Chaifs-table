@@ -9,7 +9,7 @@ const WantToCook = ({cardData,prepareCard}) => {
           <div className="overflow-x-auto">
             <table className="table">
               <thead >   
-                <tr className=" mb-4">
+                <tr className=" my-4">
                   <th></th>
                   <th>Name</th>
                   <th>Time</th>

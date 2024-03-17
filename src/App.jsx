@@ -24,7 +24,7 @@ function App() {
       let newData = [...cardData, info];
       setCardData(newData);
     } else {
-      toast("this product allready exist");
+      toast("This item already exist");
     }
   };
   const handlePrepareCard = (info) => {

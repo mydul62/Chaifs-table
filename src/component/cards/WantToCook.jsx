@@ -3,12 +3,12 @@ const WantToCook = ({cardData,prepareCard}) => {
   return (
     <div className=" text-center  col-span-4">
             <div className=" w-[90%] lg:w-[60%] mx-auto">
-            <h2 className=" py-4 text-[#282828] text-2xl font-semibold">Want to cook: 0{cardData.length}</h2>
+            <h2 className=" py-4 text-[#282828] text-2xl font-semibold"> Want to cook: 0{cardData.length}</h2>
             <hr/>
             </div>
           <div className="overflow-x-auto">
             <table className="table">
-              <thead >
+              <thead >   
                 <tr className=" mb-4">
                   <th></th>
                   <th>Name</th>

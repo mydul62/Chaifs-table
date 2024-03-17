@@ -2,9 +2,9 @@ import { IoTimeOutline } from "react-icons/io5";
 import { FaGripfire } from "react-icons/fa6";
 const RecipeItem = ({item,cardAdd}) => {
   return (
-      <div className="p-6 border border-[#28282833] rounded-2xl col-span-3">
+      <div className="p-6 border border-[#28282833] rounded-2xl col-span-3 ">
               <figure className=" ">
-                <img className="rounded-lg" src={item.recipe_image} alt="Shoes" />
+                <img className="rounded-lg hover:scale-105 duration-500" src={item.recipe_image} alt="Shoes" />
               </figure>
               <div className=" space-y-4">
                <div className=" py-4 space-y-3">

@@ -2,7 +2,7 @@
 const HeroSection = () => {
   return (
     <div className='max-w-[1600px] mx-auto rounded-2xl font-Lexend'>
-      <div className="hero  rounded-b-2xl  lg:rounded-2xl min-h-[600px] lg:min-h-[700px] "  style={{backgroundImage: `url("/src/assets/bg.jpg")`}}>
+      <div className="hero rounded-b-2xl lg:rounded-2xl min-h-[600px] lg:min-h-[700px]" style={{backgroundImage: `url("/src/assets/bg.jpg")`}}>
   <div className="hero-overlay rounded-b-2xl lg:rounded-2xl bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className=" w-[90%] lg:w-[80%] space-y-10">

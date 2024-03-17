@@ -1,15 +1,29 @@
 import RecipeItem from "./recipeItem/RecipeItem";
 import Cards from "../cards/Cards";
-const RecipeItems = ({ recipeData, cardAdd, cardData,prepareCard,cardProcessData }) => {
+const RecipeItems = ({
+  recipeData,
+  cardAdd,
+  cardData,
+  prepareCard,
+  cardProcessData,
+  time,
+  calories,
+}) => {
   return (
     <div className=" max-w-[1600px] mx-auto">
-      <div className="flex flex-col-reverse lg:grid grid-cols-1 lg:grid-cols-12 gap-4">
-        <div className="grid  grid-cols-1 lg:grid-cols-6 gap-6 col-span-full lg:col-span-7 mb-[90px]">
+      <div className="flex flex-col-reverse lg:grid grid-cols-1 lg:grid-cols-12 gap-6">
+        <div className="grid  grid-cols-1 lg:grid-cols-6 gap-6 col-span-full lg:col-span-7 mb-[25px] lg:mb-[70px]">
           {recipeData.map((item, index) => (
             <RecipeItem cardAdd={cardAdd} key={index} item={item}></RecipeItem>
           ))}
         </div>
-        <Cards cardProcessData={cardProcessData} prepareCard={prepareCard} cardData={cardData}></Cards>
+        <Cards
+          calories={calories}
+          time={time}
+          cardProcessData={cardProcessData}
+          prepareCard={prepareCard}
+          cardData={cardData}
+        ></Cards>
       </div>
     </div>
   );
